@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">beFriender</string>
+    <string name="action_left">NFC</string>
+    <string name="action_mid">Bluetooth</string>
+    <string name="action_right">Email</string>
+     <string name="action_main">befriend via</string>
+     
+     
+         <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="finish">Submit</string>
+    <string name="review">Review</string>
+
+    <string name="label_your_name">Name</string>
+    <string name="label_your_email">Email</string>
+    <string name="hint_your_name">e.g. Larry</string>
+    <string name="hint_your_email">Optional</string>
+
+    <string name="submit_confirm_message">beFriend via the chosen Social networks.</string>
+    <string name="submit_confirm_button">beFriend</string>
+    
+
+</resources>

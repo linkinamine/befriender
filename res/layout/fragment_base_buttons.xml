@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ebm="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/login_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/normal_padding" >
+
+        <Button
+            android:id="@+id/twitter_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/normal_padding"
+            android:background="#55acee"
+            android:padding="@dimen/small_padding"
+            android:text="Login with Twitter"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/linkedin_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/normal_padding"
+            android:background="#0e7cb7"
+            android:padding="@dimen/small_padding"
+            android:text="Login with LinkedIn"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/facebook_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/normal_padding"
+            android:background="#3b5998"
+            android:padding="@dimen/small_padding"
+            android:text="Login with Facebook"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/google_plus_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/normal_padding"
+            android:background="#c83929"
+            android:padding="@dimen/small_padding"
+            android:text="Login with Google Plus"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    
+    
+     <lt.lemonlabs.android.expandablebuttonmenu.ExpandableMenuOverlay
+        android:id="@+id/button_menu"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_befriender"
+
+        ebm:dimAmount="0.8"
+
+        ebm:mainButtonSize="0.2"
+        ebm:otherButtonSize="0.2"
+        ebm:distanceY="0.17"
+        ebm:distanceX="0.28"
+        ebm:bottomPad="0.02"
+
+        ebm:closeButtonSrc="@drawable/ic_befriender"
+        ebm:leftButtonSrc="@drawable/circle_1"
+        ebm:midButtonSrc="@drawable/circle_2"
+        ebm:rightButtonSrc="@drawable/circle_3"
+
+        ebm:leftButtonText="@string/action_left"
+        ebm:midButtonText="@string/action_mid"
+        ebm:rightButtonText="@string/action_right"/>
+
+<!--     <lt.lemonlabs.android.expandablebuttonmenu.ExpandableMenuOverlay -->
+<!--         android:id="@+id/button_menu" -->
+<!--         android:layout_width="200dp" -->
+<!--         android:layout_height="200dp" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         android:padding="@dimen/small_padding" -->
+<!--         android:src="@drawable/befrienderb" -->
+<!--         ebm:bottomPad="0.02" -->
+<!--         ebm:closeButtonSrc="@drawable/befrienderb" -->
+<!--         ebm:dimAmount="0.8" -->
+<!--         ebm:distanceX="0.28" -->
+<!--         ebm:distanceY="0.17" -->
+<!--         ebm:leftButtonSrc="@drawable/circle_1" -->
+<!--         ebm:leftButtonText="@string/action_left" -->
+<!--         ebm:mainButtonSize="0.25" -->
+<!--         ebm:midButtonSrc="@drawable/circle_2" -->
+<!--         ebm:midButtonText="@string/action_mid" -->
+<!--         ebm:otherButtonSize="0.22" -->
+<!--         ebm:rightButtonSrc="@drawable/circle_3" -->
+<!--         ebm:rightButtonText="@string/action_right" /> -->
+
+</RelativeLayout>
